@@ -1,0 +1,32 @@
+header h1 {
+    font-size: 2em;
+}
+
+main {
+    margin: 0 max(
+            calc(15vw - 50px),
+            15px
+    );
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.record {
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+.record:hover {
+    background-color: #efefef;
+}
+
+.record p.similarity {
+    color: red;
+    margin-bottom: 0;
+}
+
+.record h2 {
+    margin-top: 5px;
+}

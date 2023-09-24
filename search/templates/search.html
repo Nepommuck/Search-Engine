@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search the web</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'search/style.css' %}">
+</head>
+<body>
+    <header>
+        <a href="../search"><h1>
+            <span class="blue">S</span><span class="red">ea</span><span class="yellow">rc</span><span
+                class="blue">h</span><span class="green">E</span><span class="red">x</span>
+        </h1></a>
+    </header>
+
+    <main>
+        <form action="" method="post" novalidate>
+            {% csrf_token %}
+            {{ form }}
+            <br>
+            <input type="submit" value="Search">
+        </form>
+    </main>
+</body>
+</html>

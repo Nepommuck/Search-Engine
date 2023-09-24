@@ -1,0 +1,26 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    font-size: 3em;
+    user-select: none;
+    text-align: center;
+}
+
+header h1 .blue {
+    color: #4285F4;
+}
+header h1 .red {
+    color: #DB4437;
+}
+header h1 .yellow {
+    color: #F4B400;
+}
+header h1 .green {
+    color: #0F9D58;
+}
+
+header a {
+    text-decoration: none;
+}
