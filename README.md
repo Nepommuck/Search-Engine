@@ -19,3 +19,7 @@ To start the initialization, run `python3 engine/main.py`.
 
 ### Django aplication start
 Run `python3 manage.py runserver 8000` in order to start application on `http://localhost:8000/`.
+
+## Demo presentation
+
+https://github.com/Nepommuck/Search-Engine/assets/100998310/f6cd876b-c470-4958-80dc-6ae8b7431b99
