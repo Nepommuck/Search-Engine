@@ -1,0 +1,9 @@
+# Initialization parameters
+VOCABULARY_SIZE = 5_000
+ALPHA_VALUE = 0.4
+SVD_K = 100
+
+# Search parameters
+USE_SVD = True
+NUMBER_OF_RESULTS = 25
+ARTICLE_CONTENT_DISPLAYED_LENGTH = 500

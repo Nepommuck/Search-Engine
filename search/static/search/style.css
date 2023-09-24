@@ -1,0 +1,38 @@
+main {
+    text-align: center;
+}
+
+form label, form ul {
+    display: none;
+}
+
+form input[type=text] {
+    font-size: 1.5em;
+    width: min(90vw, 800px);
+    border: 2px solid darkgray;
+    border-radius: 12px;
+    padding: 7px 12px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form input[type=text]:focus {
+  border-color: black;
+}
+
+form input[type=submit] {
+    margin-top: 40px;
+    color: #4285F4;
+    font-size: 1.7em;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: 2px solid #4285F4;
+    border-radius: 12px;
+}
+
+form input[type=submit]:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #4285F4;
+    transition: 0.2s;
+}

@@ -1,0 +1,42 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results for: {{ query }}</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'results/style.css' %}">
+</head>
+<body>
+    <header>
+        <a href="../search"><h1>
+            <span class="blue">S</span><span class="red">ea</span><span class="yellow">rc</span><span
+                class="blue">h</span><span class="green">E</span><span class="red">x</span>
+        </h1></a>
+    </header>
+
+    <main>
+        <hr>
+        <h2>Query: {{ query }}</h2>
+        <hr>
+        {% for record in page_list %}
+            <a href="{{ record.url }}">
+                <div class="record">
+                    <p class="similarity">{{ record.similarity }}%</p>
+                    <h2>{{ record.title }}</h2>
+                    <p>{{ record.content }}</p>
+                    <br>
+                </div>
+            </a>
+        {% endfor %}
+    </main>
+
+    <br>
+
+    // Go back to search
+    <a href="../search">
+        <button name='go-back'>Go back</button>
+    </a>
+</body>
+</html>
