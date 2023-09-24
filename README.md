@@ -22,4 +22,4 @@ Run `python3 manage.py runserver 8000` in order to start application on `http://
 
 ## Demo presentation
 
-https://github.com/Nepommuck/Search-Engine/assets/100998310/f6cd876b-c470-4958-80dc-6ae8b7431b99
+https://github.com/Nepommuck/Search-Engine/assets/100998310/18456d9e-5222-4aa0-b8ca-de6278d06d84
